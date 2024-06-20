@@ -5,20 +5,21 @@
   lg = desktop
   xl = large desktop
 } */
-body {
+/* body {
   background-color: rgba(240, 255, 255, 0.618);
   margin: 0;
   padding-top: 70px;
-  /* display: flex;
+  /* /* display: flex;
   justify-content: center; */
-}
-.App {
+
+/* .App {
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
+  min-width: 500px;
+}  */
 
 
 /* #root {
@@ -67,7 +68,8 @@ body {
 .app {
   padding: 4rem;
 } */
-.Component {
+/* .Component {
   margin-bottom: 30px ;
   border-bottom: 2px solid #000;
-}
+  min-width: 500px;
+} */

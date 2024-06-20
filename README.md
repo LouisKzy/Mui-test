@@ -10,10 +10,10 @@ or
 `` npm install``
 
 ## Uncomment the components you want to see
-Then run :
+Then run 
 ``yarn start``
 or
-```npm run dev``
+``npm run dev``
 
 
 credit to CodeEvolution

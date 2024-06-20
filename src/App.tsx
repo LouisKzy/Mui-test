@@ -1,4 +1,5 @@
-import { Box } from '@mui/material'
+import { Box, colors, createTheme, ThemeProvider } from '@mui/material'
+
 import './App.css'
 // import MuiTypo from './components/MuiTypo'
 // import MuiTextField from './components/MuiTextField'
@@ -36,9 +37,48 @@ import './App.css'
 // import MuiMasory from './components/MuiMasory'
 import MuiResponsiveness from './components/MuiResponsiveness'
 
+const theme = createTheme({
+  status: {
+    danger: '#e53e3e',
+  },
+  palette: {
+    primary: {
+      main: '#24D26D',
+      contrastText: '#ffffff',
+    },
+    secondary: {
+      main: '#6a0dad', 
+      contrastText: '#ffffff',
+    },
+    error: {
+      main: '#f44336',
+
+      contrastText: '#ffffff',
+    },
+    warning: {
+      main: '#ffc107',
+      contrastText: '#000000', 
+    },
+    info: {
+      main: '#17a2b8',
+      contrastText: '#ffffff',
+    },
+    success: {
+      main: '#007bff',
+      contrastText: '#ffffff',
+    },
+    neutral: {
+      main: colors.grey[500],
+      darker: colors.grey[700],
+    }
+  },
+});
+
+
+
 function App() {
   return (  
-
+    <ThemeProvider theme={theme}>
       <Box className='App' m={4} >
         {/* <MuiTypo /> */}
         {/* <MuiButton /> */}
@@ -76,6 +116,7 @@ function App() {
         {/* <MuiMasory /> */}
         <MuiResponsiveness />
       </Box>
+    </ThemeProvider>
   )
 }
 

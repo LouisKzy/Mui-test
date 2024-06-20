@@ -1,19 +1,47 @@
-# React + TypeScript + Vite + Material Ui
+# React + TypeScript + Vite + Material UI Project
 
-## To run the app 
-`` git clone https://github.com/LouisKzy/Mui-test  ``
+This project is a sample React application using TypeScript, Vite, and Material UI for the user interface.
 
-Then install nessaray packages with your package manager
+## Getting Started
 
-`` yarn install``
-or
-`` npm install``
+### Clone the Repository
+First, clone the repository to your local machine:
+```bash
+git clone https://github.com/LouisKzy/Mui-test 
+```
+### Install Dependencies
+Navigate to the project directory and install the necessary packages using your preferred package manager:
 
-## Uncomment the components you want to see
-Then run 
-``yarn start``
-or
-``npm run dev``
+Using yarn:
+```bash
+yarn intall
+```
+
+Using npm:
+```bash
+npm install
+``` 
+
+## Running the Application
+To start the application, use the following commands:
+
+Using yarn:
+```bash
+yarn star
+```
+
+Using npm:
+```bash
+npm run dev
+``` 
 
 
-credit to CodeEvolution
+### Viewing Components
+Uncomment the components you want to see in the code, then run the application to view them in action.
+
+
+
+### Credits
+
+Credit to CodeEvolution for the original tutorial and inspiration.
+

@@ -21,7 +21,7 @@ const MuiNavbar = () => {
     setAnchorEl(null)
   }
   return (
-    <AppBar position="static">
+    <AppBar position="static" className='Components'>
       <Toolbar>
         <IconButton size="large" edge="start" color="inherit" aria-label="logo">
           <CatchingPokemonIcon />

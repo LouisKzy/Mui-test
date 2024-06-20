@@ -2,7 +2,7 @@ import { Stack, Avatar, AvatarGroup } from "@mui/material"
 
 const MuiAvatar = () => {
   return (
-    <Stack spacing={4} p={4}>
+    <Stack spacing={4} p={4} className='Components'>
       <Stack direction={"row"} spacing={1}>
         <Avatar sx={{ bgcolor: "primary.light"}}>BW</Avatar>
         <Avatar sx={{bgcolor: "success.light"}}>CK</Avatar>

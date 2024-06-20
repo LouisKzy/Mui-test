@@ -15,6 +15,7 @@ const MuiAccordion = () => {
   return (
     <div>
       <Accordion 
+        className='Components'
         expanded={expanded==='panel1'} 
         onChange={(_event, isExpanded) => handleChange(isExpanded, 'panel1')}
       >

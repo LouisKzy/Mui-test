@@ -35,7 +35,7 @@ const MuiCheckbox = () => {
     }
   }
   return (
-    <Box>
+    <Box className='Components'>
       <Box>
         <Typography variant="h4">Checkbox</Typography>
         <FormControlLabel 

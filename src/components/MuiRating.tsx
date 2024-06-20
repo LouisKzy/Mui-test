@@ -9,7 +9,7 @@ const MuiRating = () => {
     setValue(newValue)
   }
   return (
-    <Stack spacing={2}>
+    <Stack spacing={2} className='Components'>
       <Rating 
         value={value} 
         precision={0.5} 

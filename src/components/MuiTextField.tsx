@@ -16,7 +16,7 @@ const MuiTextField = () => {
   
 
   return (
-    <Stack spacing={4}>
+    <Stack spacing={4} className='Components'>
       <Stack display='block' direction='row' spacing={2}>
         <Typography variant="h4">Base</Typography>
         <TextField label="Name" variant="outlined"/>

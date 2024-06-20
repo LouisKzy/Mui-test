@@ -5,7 +5,7 @@ const MuiDrawer = () => {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false)
 
   return (
-    <>
+    <div className='Components'>
       <IconButton 
         size="large" 
         edge="start" 
@@ -26,7 +26,7 @@ const MuiDrawer = () => {
           </Typography>
         </Box>
       </Drawer>
-    </>
+    </div>
   )
 }
 

@@ -19,7 +19,7 @@ const MuiAutocomplete = () => {
   console.log("value", value)
   console.log("skill", skill)
   return (
-    <Stack spacing={2} width='250px'>
+    <Stack spacing={2} width='250px' className='Components'>
       <Autocomplete 
         value={value}
         options={skills}

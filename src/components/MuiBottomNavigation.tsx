@@ -20,7 +20,7 @@ const MuiBottomNavigation = () => {
   }
 
   return (
-    <>
+    <div className='Components'>
       <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '20px' }}>
         {selectedIcon(value)}
       </div>
@@ -36,7 +36,7 @@ const MuiBottomNavigation = () => {
         <BottomNavigationAction label="Favorite" icon={<FavoriteIcon />}/>
         <BottomNavigationAction label="Profile" icon={<PersonIcon />}/>
       </BottomNavigation>
-    </>
+    </div>
   )
 }
 

@@ -20,7 +20,7 @@ const MuiRadioButton = () => {
     setValue2(event.target.value)
   }
   return (
-    <Box gap={2}>
+    <Box gap={2} className='Components'>
       <FormControl>
         <FormLabel>
           Years of Experience row

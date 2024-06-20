@@ -4,7 +4,7 @@ import NaviguateNextIcon from '@mui/icons-material/NavigateNext';
 
 const MuiBreadcrumbs = () => {
   return (
-    <Box m={2}>
+    <Box m={2} className='Components'>
       <Breadcrumbs 
         aria-label="breadcrumb" 
         separator={<NaviguateNextIcon 

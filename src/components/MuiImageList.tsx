@@ -2,8 +2,8 @@ import { Stack, ImageList, ImageListItem, Box, ImageListItemBar } from "@mui/mat
 
 const MuiImageList = () => {
   return (
-    <>
-      <Stack spacing={4}>
+    <div className='Components'>
+      <Stack spacing={4} >
         <ImageList 
           sx={{ width: 500, height: 450 }} 
           cols={3} 
@@ -60,7 +60,7 @@ const MuiImageList = () => {
           </ImageList>
         </Box>
       </Stack>
-    </>
+    </div>
   )
 }
 

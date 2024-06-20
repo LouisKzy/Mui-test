@@ -14,7 +14,7 @@ const MuiSelect = () => {
   console.log("country", country)
   console.log("countries", countries)
   return (
-    <>
+    <div className='Components'>
       <Box 
         width='250px'
       >
@@ -88,7 +88,7 @@ const MuiSelect = () => {
           </MenuItem>
         </TextField>
       </Box>
-    </>
+    </div>
   )
 }
 

@@ -8,7 +8,7 @@ const MuiSwitch = () => {
     setChecked(event.target.checked)
   }
   return (
-    <Box>
+    <Box className='Components'>
       <FormControlLabel 
         label="Dark Mode"
         control={

@@ -1,7 +1,7 @@
 import { Card, Box, CardContent, Typography, CardActions, Button, CardMedia } from '@mui/material';
 const MuiCard = () => {
   return (
-    <Box width='300px'>
+    <Box width='300px' className='Components'>
       <Card>
         <CardMedia 
           component='img'

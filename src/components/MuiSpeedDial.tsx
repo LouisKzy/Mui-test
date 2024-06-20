@@ -6,6 +6,7 @@ import EditIcon from '@mui/icons-material/Edit';
 const MuiSpeedDial = () => {
   return (
     <SpeedDial 
+      className='Components'
       ariaLabel="Navigation speed dial" 
       sx={{ position: 'absolute', bottom: 16, right: 16 }} 
       icon={<SpeedDialIcon openIcon={<EditIcon />} />}

@@ -1,29 +1,39 @@
-
+import { Box } from '@mui/material'
 import './App.css'
-import MuiBreadcrumbs from './components/MuiBreadcrumbs'
-import MuiRating from './components/MuiRating'
-import MuiButton from './components/MuiButton'
 import MuiTypo from './components/MuiTypo'
-import MuiSelect from './components/MuiSelect'
 import MuiTextField from './components/MuiTextField'
 import MuiRadioButton from './components/MuiRadioButton'
 import MuiCheckbox from './components/MuiCheckbox'
 import MuiSwitch from './components/MuiSwitch'
+import MuiRating from './components/MuiRating'
 import MuiAutocomplete from './components/MuiAutocomplete'
+import MuiSelect from './components/MuiSelect'
 import MuiLayout from './components/MuiLayout'
 import MuiCard from './components/MuiCard'
 import MuiAccordion from './components/MuiAccordion'
 import MuiImageList from './components/MuiImageList'
-import MuiNavbar from './components/MuiNavbar'
 import MuiLink from './components/MuiLink'
+import MuiBreadcrumbs from './components/MuiBreadcrumbs'
+import MuiNavbar from './components/MuiNavbar'
 import MuiDrawer from './components/MuiDrawer'
 import MuiSpeedDial from './components/MuiSpeedDial'
+import MuiButton from './components/MuiButton'
 import MuiBottomNavigation from './components/MuiBottomNavigation'
 import MuiAvatar from './components/MuiAvatar'
+import MuiBadge from './components/MuiBadge'
+import MuiList from './components/MuiList'
+import MuiChip from './components/MuiChip'
+import MuiTooltip from './components/MuiTooltip'
+import MuiTable from './components/MuiTable'
+import MuiAlert from './components/MuiAlert'
+import MuiSnackbar from './components/MuiSnackbar'
+import MuiDialog from './components/MuiDialog'
+import MuiProgress from './components/MuiProgress'
+import MuiSkeleton from './components/MuiSkeleton'
 function App() {
   return (
-    <>
-      <div className="App">
+
+      <Box className='App' m={4} >
         <MuiTypo />
         <MuiButton />
         <MuiTextField />
@@ -44,8 +54,17 @@ function App() {
         <MuiSpeedDial />
         <MuiBottomNavigation />
         <MuiAvatar />
-      </div>
-    </>
+        <MuiBadge />
+        <MuiList />
+        <MuiChip />
+        <MuiTooltip />
+        <MuiTable />
+        <MuiAlert />
+        <MuiSnackbar />
+        <MuiDialog />
+        <MuiProgress />
+        <MuiSkeleton />
+      </Box>
   )
 }
 

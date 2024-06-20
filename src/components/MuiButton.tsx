@@ -21,11 +21,11 @@ const MuiButton = () => {
   console.log("formats", formats)
   console.log("formats2", formats2)
   return (
-    <Stack spacing={4} sx={{display: 'flex'}} >
+    <Stack spacing={4} sx={{display: 'flex'}} className='Components' >
       <Stack display='block' spacing={2} direction='row'>
         <Typography variant="h4">Base</Typography>
-        <Button variant="text" href='https://google.com' >Text</Button>
-        <Button variant="contained">Contained</Button>
+        <Button disableFocusRipple disableRipple disableTouchRipple disableElevation variant="text" href='https://google.com' >Text</Button>
+        <Button disableFocusRipple disableRipple disableTouchRipple disableElevation sx={{"&:hover": { decoration: "none"}}} variant="contained">Contained</Button>
         <Button variant="outlined">Outlined</Button>
       </Stack>
       <Stack display='block' spacing={2} direction='row'>

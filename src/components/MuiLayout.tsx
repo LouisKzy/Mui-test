@@ -2,7 +2,7 @@ import { Box, Stack, Divider, Grid, Paper } from "@mui/material"
 
 const MuiLayout = () => {
   return (
-    <Paper sx={{ padding:'32px'}} elevation={4}>
+    <Paper className='Components' sx={{ padding:'32px'}} elevation={4}>
       <Stack 
         sx={{ border: '1px solid' }}
         direction={"row"}

@@ -2,7 +2,7 @@ import { Typography } from '@mui/material'
 
 const MuiTypo = () => {
   return (
-    <div>
+    <div className='Components'>
       <Typography variant="h1" gutterBottom>h1 heading</Typography>
       <Typography variant="h2">h2 heading</Typography>
       <Typography variant="h3">h3 heading</Typography>

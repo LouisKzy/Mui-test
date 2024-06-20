@@ -6,10 +6,19 @@
   xl = large desktop
 } */
 body {
-  background-color: #eeeeee;
+  background-color: rgba(240, 255, 255, 0.618);
   margin: 0;
+  padding-top: 70px;
+  /* display: flex;
+  justify-content: center; */
 }
-
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
 
 /* #root {
@@ -58,3 +67,7 @@ body {
 .app {
   padding: 4rem;
 } */
+.Component {
+  margin-bottom: 30px ;
+  border-bottom: 2px solid #000;
+}
